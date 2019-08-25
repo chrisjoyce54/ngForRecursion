@@ -1,5 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { MatExpansionModule,
+  MatButtonModule,
+  MatIconModule,
+  MatFormField,
+  MatFormFieldModule,
+  MatDatepickerModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 
@@ -8,7 +14,12 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatExpansionModule,
+    MatButtonModule,
+    MatIconModule,
+    MatFormFieldModule,
+    MatDatepickerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
